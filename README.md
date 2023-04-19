@@ -27,3 +27,9 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 8. `run_voxelize.sh`: Gaussian smoothing, with (plaque) Diameter = 15 pixels  
 8. `cd plotting_scripts; ./plot_all_figures.sh`
 
+
+## Authors
+The pipeline was developed in the laboratories of Prof. Petros Koumoutsakos (Harvard University) and Prof. Adriano Aguzzi (University of Zurich) by
+* Athena Economides
+* Francesca Catto
+* Sergey Litvinov
