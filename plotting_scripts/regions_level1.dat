@@ -1,0 +1,1312 @@
+    Original ID Coarse-level ID Coarse-level name
+              0               0 universe
+              1             343 Brain stem
+              2             567 Cerebrum
+              3            1040 grooves of the cerebellar cortex
+              4             343 Brain stem
+              6             983 lateral forebrain bundle system
+              7             343 Brain stem
+              8               8 Basic cell groups and regions
+              9             567 Cerebrum
+             10             343 Brain stem
+             11            1040 grooves of the cerebellar cortex
+             12             343 Brain stem
+             14             983 lateral forebrain bundle system
+             15             343 Brain stem
+             16             567 Cerebrum
+             17             343 Brain stem
+             18            1040 grooves of the cerebellar cortex
+             19             567 Cerebrum
+             20             567 Cerebrum
+             21             967 cranial nerves
+             22             567 Cerebrum
+             23             567 Cerebrum
+             25            1040 grooves of the cerebellar cortex
+             26             343 Brain stem
+             27             343 Brain stem
+             28             567 Cerebrum
+             29             967 cranial nerves
+             30             343 Brain stem
+             31             567 Cerebrum
+             33             567 Cerebrum
+             34            1040 grooves of the cerebellar cortex
+             35             343 Brain stem
+             36             567 Cerebrum
+             37             991 medial forebrain bundle system
+             38             343 Brain stem
+             39             567 Cerebrum
+             41             567 Cerebrum
+             42             343 Brain stem
+             43            1040 grooves of the cerebellar cortex
+             44             567 Cerebrum
+             45             343 Brain stem
+             46             991 medial forebrain bundle system
+             47             343 Brain stem
+             48             567 Cerebrum
+             49            1040 grooves of the cerebellar cortex
+             50             343 Brain stem
+             51             343 Brain stem
+             52             567 Cerebrum
+             53             343 Brain stem
+             54             991 medial forebrain bundle system
+             55             343 Brain stem
+             56             567 Cerebrum
+             57            1040 grooves of the cerebellar cortex
+             58             343 Brain stem
+             59             343 Brain stem
+             60             567 Cerebrum
+             61             343 Brain stem
+             62             967 cranial nerves
+             63             343 Brain stem
+             64             343 Brain stem
+             65            1040 grooves of the cerebellar cortex
+             66             343 Brain stem
+             67             343 Brain stem
+             68             567 Cerebrum
+             69             343 Brain stem
+             70             991 medial forebrain bundle system
+             71             343 Brain stem
+             72             343 Brain stem
+             73              73 ventricular systems
+             74             567 Cerebrum
+             75             343 Brain stem
+             76             343 Brain stem
+             77             343 Brain stem
+             78             960 cerebellum related fiber tracts
+             79             343 Brain stem
+             80             343 Brain stem
+             81              81 lateral ventricle
+             82             343 Brain stem
+             83             343 Brain stem
+             84             567 Cerebrum
+             85             960 cerebellum related fiber tracts
+             86             983 lateral forebrain bundle system
+             87             343 Brain stem
+             88             343 Brain stem
+             89              81 lateral ventricle
+             90             343 Brain stem
+             91             512 Cerebellum
+             92             567 Cerebrum
+             93             967 cranial nerves
+             94             343 Brain stem
+             95             567 Cerebrum
+             96             343 Brain stem
+             97             567 Cerebrum
+             98              81 lateral ventricle
+             99             343 Brain stem
+            100             343 Brain stem
+            101             343 Brain stem
+            102            1000 extrapyramidal fiber systems
+            103             343 Brain stem
+            104             567 Cerebrum
+            105             343 Brain stem
+            106             343 Brain stem
+            107             567 Cerebrum
+            108              81 lateral ventricle
+            109            1000 extrapyramidal fiber systems
+            110             343 Brain stem
+            111             567 Cerebrum
+            112             343 Brain stem
+            113             567 Cerebrum
+            114             343 Brain stem
+            115             343 Brain stem
+            116              81 lateral ventricle
+            117             967 cranial nerves
+            118             343 Brain stem
+            119             567 Cerebrum
+            120             567 Cerebrum
+            121             567 Cerebrum
+            122             343 Brain stem
+            123             343 Brain stem
+            124             124 interventricular foramen
+            125             967 cranial nerves
+            126             343 Brain stem
+            127             343 Brain stem
+            128             343 Brain stem
+            129             129 third ventricle
+            130             343 Brain stem
+            131             567 Cerebrum
+            132             567 Cerebrum
+            133             343 Brain stem
+            134            1000 extrapyramidal fiber systems
+            135             343 Brain stem
+            136             343 Brain stem
+            137             343 Brain stem
+            138             343 Brain stem
+            139             567 Cerebrum
+            140             140 cerebral aqueduct
+            141             343 Brain stem
+            142            1000 extrapyramidal fiber systems
+            143             343 Brain stem
+            144             567 Cerebrum
+            145             145 fourth ventricle
+            146             343 Brain stem
+            147             343 Brain stem
+            148             567 Cerebrum
+            149             343 Brain stem
+            150             991 medial forebrain bundle system
+            151             567 Cerebrum
+            152             567 Cerebrum
+            153             145 fourth ventricle
+            154             343 Brain stem
+            155             343 Brain stem
+            156             567 Cerebrum
+            157             343 Brain stem
+            158             967 cranial nerves
+            159             567 Cerebrum
+            160             567 Cerebrum
+            161             343 Brain stem
+            162             343 Brain stem
+            163             567 Cerebrum
+            164             164 central canal, spinal cord/medulla
+            165             343 Brain stem
+            166             991 medial forebrain bundle system
+            167             567 Cerebrum
+            168             567 Cerebrum
+            169             343 Brain stem
+            170             343 Brain stem
+            171             567 Cerebrum
+            173             343 Brain stem
+            174             991 medial forebrain bundle system
+            175             567 Cerebrum
+            177             343 Brain stem
+            178             343 Brain stem
+            179             567 Cerebrum
+            180             567 Cerebrum
+            181             343 Brain stem
+            182             991 medial forebrain bundle system
+            183             567 Cerebrum
+            184             567 Cerebrum
+            185             343 Brain stem
+            186             343 Brain stem
+            187             567 Cerebrum
+            188             567 Cerebrum
+            189             343 Brain stem
+            190             983 lateral forebrain bundle system
+            191             567 Cerebrum
+            192             567 Cerebrum
+            193             343 Brain stem
+            194             343 Brain stem
+            195             567 Cerebrum
+            196             567 Cerebrum
+            197             343 Brain stem
+            198             983 lateral forebrain bundle system
+            199             567 Cerebrum
+            200             567 Cerebrum
+            201             567 Cerebrum
+            202             343 Brain stem
+            203             343 Brain stem
+            204             567 Cerebrum
+            205            1000 extrapyramidal fiber systems
+            206             343 Brain stem
+            207             343 Brain stem
+            208             567 Cerebrum
+            209             343 Brain stem
+            210             343 Brain stem
+            211             567 Cerebrum
+            212             567 Cerebrum
+            213            1000 extrapyramidal fiber systems
+            214             343 Brain stem
+            215             343 Brain stem
+            216             567 Cerebrum
+            217             343 Brain stem
+            218             343 Brain stem
+            219             567 Cerebrum
+            220             567 Cerebrum
+            221            1000 extrapyramidal fiber systems
+            222             343 Brain stem
+            223             343 Brain stem
+            224             567 Cerebrum
+            225             343 Brain stem
+            226             343 Brain stem
+            227             567 Cerebrum
+            228             567 Cerebrum
+            229             967 cranial nerves
+            230             343 Brain stem
+            231             343 Brain stem
+            232             567 Cerebrum
+            233             567 Cerebrum
+            234             567 Cerebrum
+            235             343 Brain stem
+            236             567 Cerebrum
+            237             967 cranial nerves
+            238             343 Brain stem
+            239             343 Brain stem
+            240             567 Cerebrum
+            241             567 Cerebrum
+            242             567 Cerebrum
+            243             567 Cerebrum
+            244             567 Cerebrum
+            245             967 cranial nerves
+            246             343 Brain stem
+            247             567 Cerebrum
+            248             567 Cerebrum
+            249             567 Cerebrum
+            250             567 Cerebrum
+            251             567 Cerebrum
+            252             567 Cerebrum
+            253             967 cranial nerves
+            254             567 Cerebrum
+            255             343 Brain stem
+            256             567 Cerebrum
+            257             567 Cerebrum
+            258             567 Cerebrum
+            259             567 Cerebrum
+            260             567 Cerebrum
+            261             967 cranial nerves
+            262             343 Brain stem
+            263             343 Brain stem
+            264             567 Cerebrum
+            266             567 Cerebrum
+            267             567 Cerebrum
+            268             567 Cerebrum
+            269             567 Cerebrum
+            270             967 cranial nerves
+            271             343 Brain stem
+            272             343 Brain stem
+            274             567 Cerebrum
+            275             567 Cerebrum
+            276             567 Cerebrum
+            277             967 cranial nerves
+            278             567 Cerebrum
+            279             567 Cerebrum
+            280             343 Brain stem
+            281             567 Cerebrum
+            283             343 Brain stem
+            284             567 Cerebrum
+            285             967 cranial nerves
+            286             343 Brain stem
+            287             567 Cerebrum
+            288             567 Cerebrum
+            289             567 Cerebrum
+            290             343 Brain stem
+            291             567 Cerebrum
+            292             567 Cerebrum
+            293             967 cranial nerves
+            294             343 Brain stem
+            295             567 Cerebrum
+            296             567 Cerebrum
+            297             567 Cerebrum
+            298             567 Cerebrum
+            299             567 Cerebrum
+            300             343 Brain stem
+            301             991 medial forebrain bundle system
+            302             343 Brain stem
+            303             567 Cerebrum
+            304             567 Cerebrum
+            305             567 Cerebrum
+            306             567 Cerebrum
+            307             343 Brain stem
+            308             567 Cerebrum
+            309            1000 extrapyramidal fiber systems
+            310             567 Cerebrum
+            311             567 Cerebrum
+            312             567 Cerebrum
+            313             343 Brain stem
+            314             567 Cerebrum
+            315             567 Cerebrum
+            316             343 Brain stem
+            317            1000 extrapyramidal fiber systems
+            318             343 Brain stem
+            319             567 Cerebrum
+            320             567 Cerebrum
+            321             343 Brain stem
+            322             567 Cerebrum
+            323             343 Brain stem
+            324             567 Cerebrum
+            325             343 Brain stem
+            326             960 cerebellum related fiber tracts
+            327             567 Cerebrum
+            328             567 Cerebrum
+            329             567 Cerebrum
+            330             567 Cerebrum
+            331             343 Brain stem
+            332             343 Brain stem
+            333             567 Cerebrum
+            334             567 Cerebrum
+            335             567 Cerebrum
+            336             967 cranial nerves
+            337             567 Cerebrum
+            338             343 Brain stem
+            339             343 Brain stem
+            340             567 Cerebrum
+            341             991 medial forebrain bundle system
+            342             567 Cerebrum
+            343             343 Brain stem
+            344             567 Cerebrum
+            345             567 Cerebrum
+            346             567 Cerebrum
+            347             343 Brain stem
+            348             343 Brain stem
+            349             991 medial forebrain bundle system
+            350             343 Brain stem
+            351             567 Cerebrum
+            352             567 Cerebrum
+            353             567 Cerebrum
+            354             343 Brain stem
+            355             567 Cerebrum
+            356             343 Brain stem
+            357             967 cranial nerves
+            358             343 Brain stem
+            359             567 Cerebrum
+            360             567 Cerebrum
+            361             567 Cerebrum
+            362             343 Brain stem
+            363             567 Cerebrum
+            364             343 Brain stem
+            365             983 lateral forebrain bundle system
+            366             343 Brain stem
+            367             567 Cerebrum
+            368             567 Cerebrum
+            369             567 Cerebrum
+            370             343 Brain stem
+            371             567 Cerebrum
+            372             343 Brain stem
+            373             960 cerebellum related fiber tracts
+            374             343 Brain stem
+            375             567 Cerebrum
+            376             567 Cerebrum
+            377             567 Cerebrum
+            378             567 Cerebrum
+            379             343 Brain stem
+            380             967 cranial nerves
+            381             343 Brain stem
+            382             567 Cerebrum
+            383             567 Cerebrum
+            384             967 cranial nerves
+            385             567 Cerebrum
+            386             343 Brain stem
+            387             567 Cerebrum
+            388             967 cranial nerves
+            389             967 cranial nerves
+            390             343 Brain stem
+            391             567 Cerebrum
+            392             567 Cerebrum
+            393             567 Cerebrum
+            394             567 Cerebrum
+            395             343 Brain stem
+            396             967 cranial nerves
+            397            1000 extrapyramidal fiber systems
+            398             343 Brain stem
+            399             567 Cerebrum
+            400             567 Cerebrum
+            401             567 Cerebrum
+            402             567 Cerebrum
+            403             567 Cerebrum
+            404             960 cerebellum related fiber tracts
+            405             991 medial forebrain bundle system
+            406             343 Brain stem
+            407             567 Cerebrum
+            408             567 Cerebrum
+            409             567 Cerebrum
+            410             960 cerebellum related fiber tracts
+            411             567 Cerebrum
+            412             567 Cerebrum
+            413             967 cranial nerves
+            414             343 Brain stem
+            415             567 Cerebrum
+            416             567 Cerebrum
+            417             567 Cerebrum
+            418             567 Cerebrum
+            419             567 Cerebrum
+            420             991 medial forebrain bundle system
+            421             567 Cerebrum
+            422             343 Brain stem
+            423             567 Cerebrum
+            424             567 Cerebrum
+            425             567 Cerebrum
+            426             567 Cerebrum
+            427             567 Cerebrum
+            428             991 medial forebrain bundle system
+            429             343 Brain stem
+            430             567 Cerebrum
+            431             567 Cerebrum
+            432             343 Brain stem
+            433             567 Cerebrum
+            434             567 Cerebrum
+            435             567 Cerebrum
+            436             991 medial forebrain bundle system
+            437             343 Brain stem
+            438             567 Cerebrum
+            439             343 Brain stem
+            440             567 Cerebrum
+            441             567 Cerebrum
+            442             567 Cerebrum
+            443             991 medial forebrain bundle system
+            444             343 Brain stem
+            445             343 Brain stem
+            446             567 Cerebrum
+            447             343 Brain stem
+            448             567 Cerebrum
+            449             991 medial forebrain bundle system
+            450             567 Cerebrum
+            451             567 Cerebrum
+            452             343 Brain stem
+            453             567 Cerebrum
+            454             567 Cerebrum
+            455             343 Brain stem
+            456             567 Cerebrum
+            457             567 Cerebrum
+            458             567 Cerebrum
+            459             967 cranial nerves
+            460             343 Brain stem
+            461             567 Cerebrum
+            462             343 Brain stem
+            463             567 Cerebrum
+            464             343 Brain stem
+            465             567 Cerebrum
+            466             991 medial forebrain bundle system
+            467             343 Brain stem
+            468             567 Cerebrum
+            469             567 Cerebrum
+            470             343 Brain stem
+            471             567 Cerebrum
+            472             567 Cerebrum
+            473             567 Cerebrum
+            474             991 medial forebrain bundle system
+            475             343 Brain stem
+            476             567 Cerebrum
+            477             567 Cerebrum
+            478             567 Cerebrum
+            479             567 Cerebrum
+            480             567 Cerebrum
+            481             567 Cerebrum
+            482             967 cranial nerves
+            483             343 Brain stem
+            484             567 Cerebrum
+            485             567 Cerebrum
+            486             567 Cerebrum
+            487             567 Cerebrum
+            488             567 Cerebrum
+            489             567 Cerebrum
+            490             960 cerebellum related fiber tracts
+            491             343 Brain stem
+            492             567 Cerebrum
+            493             567 Cerebrum
+            494             343 Brain stem
+            495             567 Cerebrum
+            496             567 Cerebrum
+            497             567 Cerebrum
+            498             567 Cerebrum
+            499             960 cerebellum related fiber tracts
+            500             567 Cerebrum
+            501             567 Cerebrum
+            502             567 Cerebrum
+            503             343 Brain stem
+            504             567 Cerebrum
+            505             567 Cerebrum
+            506             967 cranial nerves
+            507             567 Cerebrum
+            508             567 Cerebrum
+            509             567 Cerebrum
+            510             567 Cerebrum
+            511             343 Brain stem
+            512             512 Cerebellum
+            513             567 Cerebrum
+            514             967 cranial nerves
+            515             343 Brain stem
+            516             567 Cerebrum
+            517             567 Cerebrum
+            518             567 Cerebrum
+            519             512 Cerebellum
+            520             567 Cerebrum
+            521             567 Cerebrum
+            522             967 cranial nerves
+            523             343 Brain stem
+            524             567 Cerebrum
+            525             343 Brain stem
+            526             567 Cerebrum
+            527             567 Cerebrum
+            528             512 Cerebellum
+            529             567 Cerebrum
+            530             991 medial forebrain bundle system
+            531             343 Brain stem
+            532             567 Cerebrum
+            533             567 Cerebrum
+            534             343 Brain stem
+            535             567 Cerebrum
+            536             567 Cerebrum
+            537             567 Cerebrum
+            538             967 cranial nerves
+            539             343 Brain stem
+            540             567 Cerebrum
+            541             567 Cerebrum
+            542             567 Cerebrum
+            543             567 Cerebrum
+            544             567 Cerebrum
+            545             567 Cerebrum
+            546             567 Cerebrum
+            547             991 medial forebrain bundle system
+            548             343 Brain stem
+            549             343 Brain stem
+            550             567 Cerebrum
+            551             567 Cerebrum
+            552             343 Brain stem
+            553             960 cerebellum related fiber tracts
+            554             567 Cerebrum
+            555             343 Brain stem
+            556             567 Cerebrum
+            557             343 Brain stem
+            558             567 Cerebrum
+            559             567 Cerebrum
+            560             343 Brain stem
+            561             567 Cerebrum
+            562             567 Cerebrum
+            563             991 medial forebrain bundle system
+            564             567 Cerebrum
+            565             567 Cerebrum
+            566             567 Cerebrum
+            567             567 Cerebrum
+            568             343 Brain stem
+            569             567 Cerebrum
+            570             967 cranial nerves
+            571             343 Brain stem
+            572             567 Cerebrum
+            573             567 Cerebrum
+            574             343 Brain stem
+            575             343 Brain stem
+            576             343 Brain stem
+            577             567 Cerebrum
+            578             567 Cerebrum
+            579             983 lateral forebrain bundle system
+            580             343 Brain stem
+            581             567 Cerebrum
+            582             567 Cerebrum
+            583             567 Cerebrum
+            584             567 Cerebrum
+            585             567 Cerebrum
+            586             967 cranial nerves
+            587             343 Brain stem
+            588             567 Cerebrum
+            589             567 Cerebrum
+            590             567 Cerebrum
+            591             343 Brain stem
+            592             567 Cerebrum
+            593             567 Cerebrum
+            594             567 Cerebrum
+            595             991 medial forebrain bundle system
+            596             567 Cerebrum
+            597             567 Cerebrum
+            598             567 Cerebrum
+            599             343 Brain stem
+            600             567 Cerebrum
+            601             567 Cerebrum
+            602             567 Cerebrum
+            603             991 medial forebrain bundle system
+            604             343 Brain stem
+            605             567 Cerebrum
+            606             567 Cerebrum
+            607             343 Brain stem
+            608             567 Cerebrum
+            609             343 Brain stem
+            610             567 Cerebrum
+            611             991 medial forebrain bundle system
+            612             343 Brain stem
+            613             567 Cerebrum
+            614             343 Brain stem
+            615             343 Brain stem
+            616             343 Brain stem
+            617             343 Brain stem
+            618             991 medial forebrain bundle system
+            619             567 Cerebrum
+            620             567 Cerebrum
+            621             343 Brain stem
+            622             567 Cerebrum
+            623             567 Cerebrum
+            624             624 Interpeduncular fossa
+            625             567 Cerebrum
+            626             343 Brain stem
+            627             967 cranial nerves
+            628             343 Brain stem
+            629             343 Brain stem
+            630             567 Cerebrum
+            631             567 Cerebrum
+            632             567 Cerebrum
+            633             967 cranial nerves
+            634             343 Brain stem
+            635             567 Cerebrum
+            636             343 Brain stem
+            637             343 Brain stem
+            638             567 Cerebrum
+            639             567 Cerebrum
+            640             343 Brain stem
+            641             967 cranial nerves
+            642             343 Brain stem
+            643             567 Cerebrum
+            644             567 Cerebrum
+            645             512 Cerebellum
+            646             567 Cerebrum
+            647             567 Cerebrum
+            648             567 Cerebrum
+            649             567 Cerebrum
+            650             960 cerebellum related fiber tracts
+            651             343 Brain stem
+            652             343 Brain stem
+            653             343 Brain stem
+            654             567 Cerebrum
+            655             567 Cerebrum
+            656             567 Cerebrum
+            657             567 Cerebrum
+            658             967 cranial nerves
+            659             343 Brain stem
+            660             343 Brain stem
+            661             343 Brain stem
+            662             567 Cerebrum
+            663             567 Cerebrum
+            664             567 Cerebrum
+            665             967 cranial nerves
+            666             343 Brain stem
+            667             567 Cerebrum
+            668             343 Brain stem
+            669             567 Cerebrum
+            670             567 Cerebrum
+            671             567 Cerebrum
+            672             567 Cerebrum
+            673             991 medial forebrain bundle system
+            674             343 Brain stem
+            675             567 Cerebrum
+            676             343 Brain stem
+            677             567 Cerebrum
+            678             567 Cerebrum
+            679             343 Brain stem
+            680             567 Cerebrum
+            681             991 medial forebrain bundle system
+            682             343 Brain stem
+            683             567 Cerebrum
+            684             343 Brain stem
+            685             343 Brain stem
+            686             567 Cerebrum
+            687             567 Cerebrum
+            688             567 Cerebrum
+            689             343 Brain stem
+            690             991 medial forebrain bundle system
+            691             343 Brain stem
+            692             567 Cerebrum
+            693             343 Brain stem
+            694             567 Cerebrum
+            695             567 Cerebrum
+            696             567 Cerebrum
+            697             967 cranial nerves
+            698             567 Cerebrum
+            699             567 Cerebrum
+            700             343 Brain stem
+            701             343 Brain stem
+            702             567 Cerebrum
+            703             567 Cerebrum
+            704             567 Cerebrum
+            705             967 cranial nerves
+            706             343 Brain stem
+            707             567 Cerebrum
+            708             343 Brain stem
+            709             343 Brain stem
+            710             967 cranial nerves
+            711             343 Brain stem
+            712             567 Cerebrum
+            713             991 medial forebrain bundle system
+            714             567 Cerebrum
+            715             567 Cerebrum
+            716             343 Brain stem
+            717             967 cranial nerves
+            718             343 Brain stem
+            719             567 Cerebrum
+            720             343 Brain stem
+            721             567 Cerebrum
+            722             991 medial forebrain bundle system
+            723             567 Cerebrum
+            724             343 Brain stem
+            725             343 Brain stem
+            726             567 Cerebrum
+            727             567 Cerebrum
+            728             960 cerebellum related fiber tracts
+            729             567 Cerebrum
+            730             991 medial forebrain bundle system
+            731             567 Cerebrum
+            732             343 Brain stem
+            733             343 Brain stem
+            734             567 Cerebrum
+            735             567 Cerebrum
+            736            1000 extrapyramidal fiber systems
+            737             991 medial forebrain bundle system
+            738             567 Cerebrum
+            739             567 Cerebrum
+            740             343 Brain stem
+            741             343 Brain stem
+            742             567 Cerebrum
+            743             567 Cerebrum
+            744             960 cerebellum related fiber tracts
+            745             991 medial forebrain bundle system
+            746             567 Cerebrum
+            747             567 Cerebrum
+            748             343 Brain stem
+            749             343 Brain stem
+            750             567 Cerebrum
+            751             567 Cerebrum
+            752             960 cerebellum related fiber tracts
+            753             991 medial forebrain bundle system
+            754             567 Cerebrum
+            755             567 Cerebrum
+            756             343 Brain stem
+            757             343 Brain stem
+            758             567 Cerebrum
+            759             567 Cerebrum
+            760            1000 extrapyramidal fiber systems
+            761             343 Brain stem
+            762             991 medial forebrain bundle system
+            763             343 Brain stem
+            764             567 Cerebrum
+            765             343 Brain stem
+            766             567 Cerebrum
+            767             567 Cerebrum
+            768             991 medial forebrain bundle system
+            769             343 Brain stem
+            770             991 medial forebrain bundle system
+            771             343 Brain stem
+            772             567 Cerebrum
+            773             343 Brain stem
+            774             567 Cerebrum
+            775             567 Cerebrum
+            776             983 lateral forebrain bundle system
+            777             343 Brain stem
+            778             567 Cerebrum
+            779             991 medial forebrain bundle system
+            780             567 Cerebrum
+            781             343 Brain stem
+            782             567 Cerebrum
+            783             567 Cerebrum
+            784             983 lateral forebrain bundle system
+            785             343 Brain stem
+            786             567 Cerebrum
+            787             991 medial forebrain bundle system
+            788             567 Cerebrum
+            789             343 Brain stem
+            790             567 Cerebrum
+            791             567 Cerebrum
+            792             967 cranial nerves
+            793             567 Cerebrum
+            794             967 cranial nerves
+            795             343 Brain stem
+            796             343 Brain stem
+            797             343 Brain stem
+            798             967 cranial nerves
+            799             567 Cerebrum
+            800             567 Cerebrum
+            801             567 Cerebrum
+            802             991 medial forebrain bundle system
+            803             567 Cerebrum
+            804             343 Brain stem
+            805             567 Cerebrum
+            806             567 Cerebrum
+            807             567 Cerebrum
+            808             967 cranial nerves
+            809             567 Cerebrum
+            810             567 Cerebrum
+            811             343 Brain stem
+            812             960 cerebellum related fiber tracts
+            813             967 cranial nerves
+            814             567 Cerebrum
+            815             567 Cerebrum
+            816             567 Cerebrum
+            817             991 medial forebrain bundle system
+            818             567 Cerebrum
+            819             567 Cerebrum
+            820             343 Brain stem
+            821             567 Cerebrum
+            822             567 Cerebrum
+            823             567 Cerebrum
+            824             991 medial forebrain bundle system
+            825             991 medial forebrain bundle system
+            826             567 Cerebrum
+            827             567 Cerebrum
+            828             343 Brain stem
+            829             567 Cerebrum
+            830             343 Brain stem
+            831             567 Cerebrum
+            832             967 cranial nerves
+            833             991 medial forebrain bundle system
+            834             343 Brain stem
+            835             567 Cerebrum
+            836             567 Cerebrum
+            837             567 Cerebrum
+            838             567 Cerebrum
+            839             343 Brain stem
+            840             967 cranial nerves
+            841             967 cranial nerves
+            842             343 Brain stem
+            843             567 Cerebrum
+            844             567 Cerebrum
+            845             567 Cerebrum
+            846             512 Cerebellum
+            847             567 Cerebrum
+            848             967 cranial nerves
+            849             567 Cerebrum
+            850             960 cerebellum related fiber tracts
+            851             343 Brain stem
+            852             343 Brain stem
+            853             567 Cerebrum
+            854             567 Cerebrum
+            855            1000 extrapyramidal fiber systems
+            856             343 Brain stem
+            857             567 Cerebrum
+            858             967 cranial nerves
+            859             343 Brain stem
+            860             343 Brain stem
+            861             567 Cerebrum
+            862             567 Cerebrum
+            863            1000 extrapyramidal fiber systems
+            864             343 Brain stem
+            865             567 Cerebrum
+            866             960 cerebellum related fiber tracts
+            867             343 Brain stem
+            868             343 Brain stem
+            869             567 Cerebrum
+            870             567 Cerebrum
+            871             967 cranial nerves
+            872             343 Brain stem
+            873             567 Cerebrum
+            874             343 Brain stem
+            875             343 Brain stem
+            876             967 cranial nerves
+            877            1000 extrapyramidal fiber systems
+            878             567 Cerebrum
+            879             567 Cerebrum
+            880             343 Brain stem
+            881             343 Brain stem
+            882             567 Cerebrum
+            883             343 Brain stem
+            884             991 medial forebrain bundle system
+            885             967 cranial nerves
+            886             567 Cerebrum
+            887             343 Brain stem
+            888             567 Cerebrum
+            889             567 Cerebrum
+            890             343 Brain stem
+            891             343 Brain stem
+            892             991 medial forebrain bundle system
+            893             567 Cerebrum
+            894             567 Cerebrum
+            895             567 Cerebrum
+            896             983 lateral forebrain bundle system
+            897             567 Cerebrum
+            898             343 Brain stem
+            899             343 Brain stem
+            900             967 cranial nerves
+            901             967 cranial nerves
+            902             567 Cerebrum
+            903             343 Brain stem
+            904             567 Cerebrum
+            905             567 Cerebrum
+            906             567 Cerebrum
+            907             343 Brain stem
+            908             991 medial forebrain bundle system
+            909             567 Cerebrum
+            910             567 Cerebrum
+            911             967 cranial nerves
+            912             512 Cerebellum
+            913             567 Cerebrum
+            914             343 Brain stem
+            915             343 Brain stem
+            916             967 cranial nerves
+            917             967 cranial nerves
+            918             567 Cerebrum
+            919             567 Cerebrum
+            920             512 Cerebellum
+            921             567 Cerebrum
+            922             567 Cerebrum
+            923             343 Brain stem
+            924             983 lateral forebrain bundle system
+            925             967 cranial nerves
+            926             567 Cerebrum
+            927             567 Cerebrum
+            928             512 Cerebellum
+            929             567 Cerebrum
+            930             343 Brain stem
+            931             343 Brain stem
+            932             967 cranial nerves
+            933             967 cranial nerves
+            934             567 Cerebrum
+            935             567 Cerebrum
+            936             512 Cerebellum
+            937             567 Cerebrum
+            938             343 Brain stem
+            939             343 Brain stem
+            940             991 medial forebrain bundle system
+            941            1000 extrapyramidal fiber systems
+            942             567 Cerebrum
+            943             567 Cerebrum
+            944             512 Cerebellum
+            945             567 Cerebrum
+            946             343 Brain stem
+            947             567 Cerebrum
+            948             967 cranial nerves
+            949             967 cranial nerves
+            950             567 Cerebrum
+            951             512 Cerebellum
+            952             567 Cerebrum
+            953             343 Brain stem
+            954             567 Cerebrum
+            955             343 Brain stem
+            956             983 lateral forebrain bundle system
+            957             512 Cerebellum
+            958             343 Brain stem
+            959             567 Cerebrum
+            960             960 cerebellum related fiber tracts
+            961             567 Cerebrum
+            962             567 Cerebrum
+            963             343 Brain stem
+            964             983 lateral forebrain bundle system
+            965             567 Cerebrum
+            966             567 Cerebrum
+            967             967 cranial nerves
+            968             512 Cerebellum
+            969             567 Cerebrum
+            970             343 Brain stem
+            971             983 lateral forebrain bundle system
+            972             567 Cerebrum
+            973             567 Cerebrum
+            974             567 Cerebrum
+            975             343 Brain stem
+            976             512 Cerebellum
+            977             567 Cerebrum
+            978             343 Brain stem
+            979             983 lateral forebrain bundle system
+            980             343 Brain stem
+            981             567 Cerebrum
+            982             567 Cerebrum
+            983             983 lateral forebrain bundle system
+            984             512 Cerebellum
+            985             567 Cerebrum
+            986             983 lateral forebrain bundle system
+            987             343 Brain stem
+            988             567 Cerebrum
+            989             512 Cerebellum
+            990             567 Cerebrum
+            991             991 medial forebrain bundle system
+            992             512 Cerebellum
+            993             567 Cerebrum
+            994             983 lateral forebrain bundle system
+            995             343 Brain stem
+            996             567 Cerebrum
+            997             997 brain
+            998             567 Cerebrum
+            999             567 Cerebrum
+           1000            1000 extrapyramidal fiber systems
+           1001             512 Cerebellum
+           1002             567 Cerebrum
+           1003             983 lateral forebrain bundle system
+           1004             343 Brain stem
+           1005             567 Cerebrum
+           1006             567 Cerebrum
+           1007             512 Cerebellum
+           1008             343 Brain stem
+           1009            1009 fiber tracts
+           1010             567 Cerebrum
+           1011             567 Cerebrum
+           1012             983 lateral forebrain bundle system
+           1014             343 Brain stem
+           1015             567 Cerebrum
+           1016             967 cranial nerves
+           1017             512 Cerebellum
+           1018             567 Cerebrum
+           1019             983 lateral forebrain bundle system
+           1020             343 Brain stem
+           1021             567 Cerebrum
+           1022             567 Cerebrum
+           1023             567 Cerebrum
+           1024            1024 grooves
+           1025             512 Cerebellum
+           1026             567 Cerebrum
+           1027             567 Cerebrum
+           1028             983 lateral forebrain bundle system
+           1029             343 Brain stem
+           1030             567 Cerebrum
+           1031             567 Cerebrum
+           1032            1032 grooves of the cerebral cortex
+           1033             512 Cerebellum
+           1034             567 Cerebrum
+           1035             567 Cerebrum
+           1036             983 lateral forebrain bundle system
+           1037             567 Cerebrum
+           1038             567 Cerebrum
+           1039             343 Brain stem
+           1040            1040 grooves of the cerebellar cortex
+           1041             512 Cerebellum
+           1042             567 Cerebrum
+           1043            1000 extrapyramidal fiber systems
+           1044             343 Brain stem
+           1045             567 Cerebrum
+           1046             567 Cerebrum
+           1047             567 Cerebrum
+           1048             343 Brain stem
+           1049             512 Cerebellum
+           1050             567 Cerebrum
+           1051            1000 extrapyramidal fiber systems
+           1052             343 Brain stem
+           1053             567 Cerebrum
+           1054             567 Cerebrum
+           1055            1032 grooves of the cerebral cortex
+           1056             512 Cerebellum
+           1057             567 Cerebrum
+           1058             567 Cerebrum
+           1059             567 Cerebrum
+           1060            1000 extrapyramidal fiber systems
+           1061             343 Brain stem
+           1062             567 Cerebrum
+           1063            1032 grooves of the cerebral cortex
+           1064             512 Cerebellum
+           1065             343 Brain stem
+           1066             567 Cerebrum
+           1067             567 Cerebrum
+           1068             991 medial forebrain bundle system
+           1069             343 Brain stem
+           1070             567 Cerebrum
+           1071            1032 grooves of the cerebral cortex
+           1072             343 Brain stem
+           1073             512 Cerebellum
+           1074             567 Cerebrum
+           1075             567 Cerebrum
+           1076             967 cranial nerves
+           1077             343 Brain stem
+           1078            1032 grooves of the cerebral cortex
+           1079             343 Brain stem
+           1080             567 Cerebrum
+           1081             567 Cerebrum
+           1082             567 Cerebrum
+           1083             991 medial forebrain bundle system
+           1084             567 Cerebrum
+           1085             567 Cerebrum
+           1086             567 Cerebrum
+           1087            1040 grooves of the cerebellar cortex
+           1088             343 Brain stem
+           1089             567 Cerebrum
+           1090             567 Cerebrum
+           1091             512 Cerebellum
+           1092             983 lateral forebrain bundle system
+           1093             343 Brain stem
+           1094             567 Cerebrum
+           1095            1040 grooves of the cerebellar cortex
+           1096             343 Brain stem
+           1097             343 Brain stem
+           1098             343 Brain stem
+           1099             991 medial forebrain bundle system
+           1100             343 Brain stem
+           1101             567 Cerebrum
+           1102             567 Cerebrum
+           1103            1040 grooves of the cerebellar cortex
+           1104             343 Brain stem
+           1105             567 Cerebrum
+           1106             567 Cerebrum
+           1107             343 Brain stem
+           1108             983 lateral forebrain bundle system
+           1109             343 Brain stem
+           1110             343 Brain stem
+           1111             567 Cerebrum
+           1112            1040 grooves of the cerebellar cortex
+           1113             343 Brain stem
+           1114             567 Cerebrum
+           1116             967 cranial nerves
+           1117             343 Brain stem
+           1118             343 Brain stem
+           1119            1040 grooves of the cerebellar cortex
+           1120             343 Brain stem
+           1121             567 Cerebrum
+           1123             960 cerebellum related fiber tracts
+           1124             343 Brain stem
+           1125             567 Cerebrum
+           1126             343 Brain stem
+           1127             567 Cerebrum
+           1128             567 Cerebrum
+           1129             343 Brain stem
+           1131             967 cranial nerves
+           1132             343 Brain stem
+           1133             567 Cerebrum
+           1139             567 Cerebrum
+           1140             567 Cerebrum
+           1141             567 Cerebrum
+           1142             567 Cerebrum
+           1143             512 Cerebellum
+           1144             512 Cerebellum
+           1145             512 Cerebellum
+          10671             343 Brain stem
+          10672             512 Cerebellum
+          10673             512 Cerebellum
+          10674             512 Cerebellum
+          10675             512 Cerebellum
+          10676             512 Cerebellum
+          10677             512 Cerebellum
+          10678             512 Cerebellum
+          10679             512 Cerebellum
+          10680             512 Cerebellum
+          10681             512 Cerebellum
+          10682             512 Cerebellum
+          10683             512 Cerebellum
+          10684             512 Cerebellum
+          10685             512 Cerebellum
+          10686             512 Cerebellum
+          10687             512 Cerebellum
+          10688             512 Cerebellum
+          10689             512 Cerebellum
+          10690             512 Cerebellum
+          10691             512 Cerebellum
+          10692             512 Cerebellum
+          10693             567 Cerebrum
+          10694             567 Cerebrum
+          10695             567 Cerebrum
+          10696             567 Cerebrum
+          10697             567 Cerebrum
+          10698             567 Cerebrum
+          10699             567 Cerebrum
+          10700             567 Cerebrum
+          10701             567 Cerebrum
+          10702             567 Cerebrum
+          10703             567 Cerebrum
+          10704             567 Cerebrum
+          10705             512 Cerebellum
+          10706             512 Cerebellum
+          10707             512 Cerebellum
+          10708             512 Cerebellum
+          10709             512 Cerebellum
+          10710             512 Cerebellum
+          10711             512 Cerebellum
+          10712             512 Cerebellum
+          10713             512 Cerebellum
+          10714             512 Cerebellum
+          10715             512 Cerebellum
+          10716             512 Cerebellum
+          10717             512 Cerebellum
+          10718             512 Cerebellum
+          10719             512 Cerebellum
+          10720             512 Cerebellum
+          10721             512 Cerebellum
+          10722             512 Cerebellum
+          10723             512 Cerebellum
+          10724             512 Cerebellum
+          10725             512 Cerebellum
+          10726             512 Cerebellum
+          10727             512 Cerebellum
+          10728             512 Cerebellum
+          10729             512 Cerebellum
+          10730             512 Cerebellum
+          10731             512 Cerebellum
+          10732             512 Cerebellum
+          10733             512 Cerebellum
+          10734             512 Cerebellum
+          10735             512 Cerebellum
+          10736             512 Cerebellum
+          10737             512 Cerebellum
+          12993             567 Cerebrum
+          12994             567 Cerebrum
+          12995             567 Cerebrum
+          12996             567 Cerebrum
+          12997             567 Cerebrum
+          12998             567 Cerebrum
+      182305689             567 Cerebrum
+      182305693             567 Cerebrum
+      182305697             567 Cerebrum
+      182305701             567 Cerebrum
+      182305705             567 Cerebrum
+      182305709             567 Cerebrum
+      182305713             567 Cerebrum
+      304325711       304325711 retina
+      312782546             567 Cerebrum
+      312782550             567 Cerebrum
+      312782554             567 Cerebrum
+      312782558             567 Cerebrum
+      312782562             567 Cerebrum
+      312782566             567 Cerebrum
+      312782570             567 Cerebrum
+      312782574             567 Cerebrum
+      312782578             567 Cerebrum
+      312782582             567 Cerebrum
+      312782586             567 Cerebrum
+      312782590             567 Cerebrum
+      312782594             567 Cerebrum
+      312782598             567 Cerebrum
+      312782604             567 Cerebrum
+      312782608             567 Cerebrum
+      312782612             567 Cerebrum
+      312782616             567 Cerebrum
+      312782620             567 Cerebrum
+      312782624             567 Cerebrum
+      312782628             567 Cerebrum
+      312782632             567 Cerebrum
+      312782636             567 Cerebrum
+      312782640             567 Cerebrum
+      312782644             567 Cerebrum
+      312782648             567 Cerebrum
+      312782652             567 Cerebrum
+      480149202             567 Cerebrum
+      480149206             567 Cerebrum
+      480149210             567 Cerebrum
+      480149214             567 Cerebrum
+      480149218             567 Cerebrum
+      480149222             567 Cerebrum
+      480149226             567 Cerebrum
+      480149230             567 Cerebrum
+      480149234             567 Cerebrum
+      480149238             567 Cerebrum
+      480149242             567 Cerebrum
+      480149246             567 Cerebrum
+      480149250             567 Cerebrum
+      480149254             567 Cerebrum
+      480149258             567 Cerebrum
+      480149262             567 Cerebrum
+      480149266             567 Cerebrum
+      480149270             567 Cerebrum
+      480149274             567 Cerebrum
+      480149278             567 Cerebrum
+      480149282             567 Cerebrum
+      480149286             567 Cerebrum
+      480149290             567 Cerebrum
+      480149294             567 Cerebrum
+      480149298             567 Cerebrum
+      480149302             567 Cerebrum
+      480149306             567 Cerebrum
+      480149310             567 Cerebrum
+      480149314             567 Cerebrum
+      480149318             567 Cerebrum
+      480149322             567 Cerebrum
+      480149326             567 Cerebrum
+      480149330             567 Cerebrum
+      480149334             567 Cerebrum
+      480149338             567 Cerebrum
+      484682470             567 Cerebrum
+      484682475             567 Cerebrum
+      484682479             567 Cerebrum
+      484682483             567 Cerebrum
+      484682487             567 Cerebrum
+      484682492             567 Cerebrum
+      484682496             567 Cerebrum
+      484682500             567 Cerebrum
+      484682504             567 Cerebrum
+      484682508             567 Cerebrum
+      484682512       484682512 supra-callosal cerebral white matter
+      484682516             983 lateral forebrain bundle system
+      484682520             983 lateral forebrain bundle system
+      484682524             983 lateral forebrain bundle system
+      484682528             991 medial forebrain bundle system
+      496345664             343 Brain stem
+      496345668             343 Brain stem
+      496345672             343 Brain stem
+      526157192             567 Cerebrum
+      526157196             567 Cerebrum
+      526322264             567 Cerebrum
+      527696977             567 Cerebrum
+      549009199             567 Cerebrum
+      549009203             343 Brain stem
+      549009207             343 Brain stem
+      549009211             343 Brain stem
+      549009215             343 Brain stem
+      549009219             343 Brain stem
+      549009223             343 Brain stem
+      549009227             343 Brain stem
+      560581551             343 Brain stem
+      560581555             343 Brain stem
+      560581559             343 Brain stem
+      560581563             343 Brain stem
+      563807435             343 Brain stem
+      563807439             343 Brain stem
+      576073699             343 Brain stem
+      576073704             343 Brain stem
+      589508447             567 Cerebrum
+      589508451             343 Brain stem
+      589508455             512 Cerebellum
