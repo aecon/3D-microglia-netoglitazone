@@ -48,12 +48,17 @@ python3 flip.py -i <path to nrrd file>
 
 ### main pipeline
 
-* **Cell segmentation**: Edit parameters inside `./run_cell_detection_WREN.sh`. The run as follows: 
+* **Cell segmentation**: Edit parameters inside `./run_cell_detection_WREN.sh`. Then run as follows: 
 ```
 ./run_cell_detection_WREN.sh
 ```
 
-* `run_align.sh`  
+* **Align to Allen Brain Atlas**: 
+```
+./run_align.sh
+```
+
+
 * `run_erode.sh`: To remove surface artifacts + Voxelize  
 * `run_voxelize.sh`: Gaussian smoothing, with (plaque) Diameter = 15 pixels  
 * `cd plotting_scripts; ./plot_all_figures.sh`
