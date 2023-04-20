@@ -13,8 +13,8 @@ args = parser.parse_args()
 cells = img3.nrrd_data(args.i)
 
 # atlas (shape: 320x528x456)
-fatlasA="/media/athena-admin/FastSSD1/Athena/collabODED/ABA_25um_annotation.tif"
-fatlasD="/media/athena-admin/FastSSD1/Athena/collabODED/ABA_25um_distance_to_surface.tif"
+fatlasA="FastSSD/atlas/ABA_25um_annotation.tif"
+fatlasD="FastSSD/atlas/ABA_25um_distance_to_surface.tif"
 atlasA = skimage.io.imread(fatlasA, plugin='tifffile').T
 atlasD = skimage.io.imread(fatlasD, plugin='tifffile').T
 atlasA = atlasA[:,:,0:np.shape(cells)[2]]
