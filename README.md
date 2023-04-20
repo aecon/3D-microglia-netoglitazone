@@ -53,7 +53,7 @@ python3 flip.py -i <path to nrrd file>
 ./run_cell_detection_WREN.sh
 ```
 
-* **Align to Allen Brain Atlas**: 
+* **Alignment to Allen Brain Atlas**: 
 ```
 ./run_align.sh
 ```
