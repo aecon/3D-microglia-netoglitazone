@@ -34,7 +34,7 @@ for sample in ${samples[@]}; do
     # side of Cerebellum: ALWAYS on the RIGHT: 1
     ox=1
 
-    python3.6 align.py -i ${input} -o ${outdir} -k 1 1 1 -d 3.26 3.26 3.00 -azmin 0 -azmax 230 -ori $ox 2 3 -N 32 -truecells ${truecells} -affine data/affine.txt -bspline data/bspline.txt -v
+    python3.6 align.py -i ${input} -o ${outdir} -k 1 1 1 -d 3.26 3.26 3.00 -azmin 0 -azmax 230 -ori $ox 2 3 -N 32 -truecells ${truecells} -affine align/affine.txt -bspline align/bspline.txt -v
 
     # Remove temporary file
     rm -rf ${outdir}/stitched.npy
