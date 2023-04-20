@@ -24,7 +24,6 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 ## Image Processing
 
-1. `run_copy_tif.sh`: Copy script to FastSSD and run from athena-admin user (to be able to access sa..._3)  
 2. `run_tif2raw.sh  <PATH TO TIF FILES>`  
 3. `run_crop.sh`  
 4. [ `run_cell_detection_WREN.sh`: Check intensity threshold for Back.Eq. and Cell detection ]  
