@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 import numpy as np
-import adv
+import img3
 import ClearMap.Analysis.Measurements.Voxelization as vox
 
 parser = argparse.ArgumentParser()
@@ -10,9 +10,9 @@ parser.add_argument('-i', type=str, required=True, help="segmented cells, nrrd")
 args = parser.parse_args()
 
 # aligned cells
-cells = adv.nrrd_data(args.i)
+cells = img3.nrrd_data(args.i)
 
-points0 = adv.points_read("%s/cells_eroded.vtk" % os.path.dirname(args.i))
+points0 = img3.points_read("%s/cells_eroded.vtk" % os.path.dirname(args.i))
 print(np.shape(points0))
 
 points = np.zeros(np.shape(points0))

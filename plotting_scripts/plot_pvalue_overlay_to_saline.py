@@ -1,6 +1,6 @@
 import os
 import sys
-import adv
+import img3
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,8 +53,8 @@ else:
 # load per-voxel means
 fcells1 = args.f1
 fcells2 = args.f2
-cells1 = adv.nrrd_data(fcells1)/norm
-cells2 = adv.nrrd_data(fcells2)/norm
+cells1 = img3.nrrd_data(fcells1)/norm
+cells2 = img3.nrrd_data(fcells2)/norm
 #print("means 1:", np.min(cells1), np.max(cells1))
 #print("means 2:", np.min(cells2), np.max(cells2))
 
@@ -62,8 +62,8 @@ cells2 = adv.nrrd_data(fcells2)/norm
 # load per-voxel stds
 fcells1s = args.f1s
 fcells2s = args.f2s
-cells1s = adv.nrrd_data(fcells1s)/norm
-cells2s = adv.nrrd_data(fcells2s)/norm
+cells1s = img3.nrrd_data(fcells1s)/norm
+cells2s = img3.nrrd_data(fcells2s)/norm
 #print("stds 1:", np.min(cells1s), np.max(cells1s))
 #print("stds 2:", np.min(cells2s), np.max(cells2s))
 
@@ -91,14 +91,14 @@ group = args.g; #print(group)
 # -- positive effect
 name_raw = "%s/../processed_R%d/pv_cells_group%d_pos.raw"%(args.o, args.R, group)
 name_nrrd = "%s/../processed_R%d/pv_cells_group%d_pos.nrrd"%(args.o, args.R, group)
-o = adv.mmap_create(name_raw, np.dtype("float"), np.shape(pvalues))
-adv.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
+o = img3.mmap_create(name_raw, np.dtype("float"), np.shape(pvalues))
+img3.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
 o[:,:,:] = positive_pv[:,:,:]
 
 # -- negative effect
 name_raw = "%s/../processed_R%d/pv_cells_group%d_neg.raw"%(args.o, args.R, group)
 name_nrrd = "%s/../processed_R%d/pv_cells_group%d_neg.nrrd"%(args.o, args.R, group)
-o = adv.mmap_create(name_raw, np.dtype("float"), np.shape(pvalues))
-adv.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
+o = img3.mmap_create(name_raw, np.dtype("float"), np.shape(pvalues))
+img3.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
 o[:,:,:] = negative_pv[:,:,:]
 

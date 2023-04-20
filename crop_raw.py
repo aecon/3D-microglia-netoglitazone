@@ -4,13 +4,13 @@ import mmap
 import numba
 import argparse
 import numpy as np
-import adv
+import img3
 
 me = "crop_raw.py"
 
 
 def nrrd_details(fnrrd):
-    nrrd        = adv.nrrd_read(fnrrd)
+    nrrd        = img3.nrrd_read(fnrrd)
     dtype       = nrrd["type"]
     path        = nrrd["path"]
     shape       = nrrd["sizes"]
@@ -62,8 +62,8 @@ Ly = args.y1 - args.y0
 
 foutr = "%s/cropped_%s.raw" % ( os.path.dirname(args.i), os.path.basename(args.i) )
 foutn = "%s/cropped_%s.nrrd" % ( os.path.dirname(args.i), os.path.basename(args.i) )
-cropped = adv.mmap_create(foutr, img_stack.dtype, [Lx,Ly,shape[2]])
-adv.nrrd_write(foutn, foutr, cropped.dtype, cropped.shape, spacings)
+cropped = img3.mmap_create(foutr, img_stack.dtype, [Lx,Ly,shape[2]])
+img3.nrrd_write(foutn, foutr, cropped.dtype, cropped.shape, spacings)
 
 
 # crop

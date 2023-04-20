@@ -4,7 +4,7 @@ import numpy as np
 import scipy.ndimage.measurements as sm
 import argparse
 import tifffile
-import adv
+import img3
 import skimage.io
 
 
@@ -41,8 +41,8 @@ def store4montage(name_raw, name_nrrd, array):
     shape = np.shape(array)
     shape_rot = (shape[2], shape[0], shape[1])
 
-    o = adv.mmap_create(name_raw, np.dtype("float"), (shape_rot[0], shape_rot[1], Nc*Nr) )
-    adv.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
+    o = img3.mmap_create(name_raw, np.dtype("float"), (shape_rot[0], shape_rot[1], Nc*Nr) )
+    img3.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
     tmp_ = sag2cor(array)
     o[:,:,:] = reorder4montage(tmp_)
 
@@ -68,7 +68,7 @@ def filter_sizes_below_pct(mask, pct = 95, csize_thresh = None):
 
 
 # pvalue cluster correction
-pvalues = adv.nrrd_data(args.p)
+pvalues = img3.nrrd_data(args.p)
 pvalues_thresh = np.where(pvalues <= pval_thresh, 1, 0) # binarization of pvalues
 pvalues_corr_sizes = filter_sizes_below_pct(pvalues_thresh, csize_thresh = size_pct)
 pvalues_corr = np.where(pvalues_corr_sizes > 0, pvalues, 0)

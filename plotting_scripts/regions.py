@@ -6,7 +6,7 @@ import skimage.io
 import numpy as np
 import pandas as pd
 from scipy.stats import ttest_ind_from_stats
-import adv
+import img3
 
  
 class Atlas:
@@ -256,7 +256,7 @@ class Cohort:
 
                 # Volume of cells in each fine region
                 self.pprint("Computing vol. of cells per fine region...")
-                cells = adv.nrrd_data("%s/transformed_cells_eroded.nrrd" % cdir)
+                cells = img3.nrrd_data("%s/transformed_cells_eroded.nrrd" % cdir)
                 for i,ID in enumerate(atlas.regions["fine_level"]):
                     print(ii, i)
                     idx = np.where(atlas.atlas_annotations==ID)

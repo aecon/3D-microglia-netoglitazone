@@ -1,4 +1,4 @@
-import adv
+import img3
 import argparse
 import array
 import ClearMap.Alignment.Annotation as ano
@@ -34,7 +34,7 @@ def read_input(argsi, me, path, dtype, offset, shape):
     return a0
 
 def nrrd_details(fnrrd):
-    nrrd        = adv.nrrd_read(fnrrd)
+    nrrd        = img3.nrrd_read(fnrrd)
     dtype       = nrrd["type"]
     path        = nrrd["path"]
     shape       = nrrd["sizes"]
@@ -95,7 +95,7 @@ if not os.path.exists(atlas_dir):
     os.makedirs(atlas_dir)
 
 try:
-    img_stack = adv.nrrd_data(args.i)
+    img_stack = img3.nrrd_data(args.i)
 except FileNotFoundError:
     sys.stderr.write("%s: file not found '%s'\n" % (me, args.i))
     sys.exit(1)
@@ -126,7 +126,7 @@ annotation_file, reference_file, distance_file=ano.prepare_annotation_files(
 
 
 
-working_stack = adv.mmap_create("%s/stitched.npy" % args.o, np.dtype("uint16"), img_stack.shape)
+working_stack = img3.mmap_create("%s/stitched.npy" % args.o, np.dtype("uint16"), img_stack.shape)
 working_stack[:,:,:] = img_stack[:,:,:]
 flush(working_stack)
 
@@ -216,8 +216,8 @@ coordinates_aligned= elx.transform_points(
                 binary=False, indices=True)
 
 print("Storing transformed cells")
-coords_array_trans = adv.mmap_create("%s/transformed_cells.raw" % args.o, np.dtype("uint16"), (320,528,(args.azmax-args.azmin)))
-adv.nrrd_write("%s/transformed_cells.nrrd" % args.o, "%s/transformed_cells.raw" % args.o, coords_array_trans.dtype, coords_array_trans.shape, (1, 1, 1))
+coords_array_trans = img3.mmap_create("%s/transformed_cells.raw" % args.o, np.dtype("uint16"), (320,528,(args.azmax-args.azmin)))
+img3.nrrd_write("%s/transformed_cells.nrrd" % args.o, "%s/transformed_cells.raw" % args.o, coords_array_trans.dtype, coords_array_trans.shape, (1, 1, 1))
 
 coordinates_aligned = coordinates_aligned.astype(int)
 coords_array_trans[:,:,:] = 0
@@ -239,7 +239,7 @@ for i, r in enumerate(coordinates_aligned):
             coords_array_trans[rx0, ry, rz] = ct
 flush(coords_array_trans)
 print("Writing cells.vtk")
-adv.points_write("%s/cells.vtk" % args.o, points)
+img3.points_write("%s/cells.vtk" % args.o, points)
 
 
 ## voxelization

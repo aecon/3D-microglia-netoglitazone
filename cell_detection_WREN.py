@@ -8,7 +8,7 @@ import argparse
 import numpy as np
 import multiprocessing
 from skimage.morphology import remove_small_objects, remove_small_holes, ball
-import adv
+import img3
 
 me = "cell_detection_FC.py"
 
@@ -18,7 +18,7 @@ def stamp(s):
         sys.stderr.write("%s: %d: %s\n" % (me, time.time() - start, s))
 
 def nrrd_details(fnrrd):
-    nrrd        = adv.nrrd_read(fnrrd)
+    nrrd        = img3.nrrd_read(fnrrd)
     dtype       = nrrd["type"]
     path        = nrrd["path"]
     shape       = nrrd["sizes"]
@@ -138,18 +138,18 @@ stamp("create new arrays")
 odir = "%s/%s" % (args.o, "segment")
 if not os.path.exists(odir):
     os.makedirs(odir)
-keep    = adv.mmap_create("%s/mask.raw" % odir, np.dtype("uint8"), shape)
-keepE   = adv.mmap_create("%s/mask_erosion.raw" % odir, np.dtype("uint8"), shape)
-tmp8    = adv.mmap_create("%s/tmp8.raw" % odir, np.dtype("uint8"), shape)
-segmented = adv.mmap_create("%s/segmented.raw" % odir, np.dtype("uint8"), shape)
-tmp32a  = adv.mmap_create("%s/tmp32a.raw" % odir, np.dtype("float32"), shape)
-tmp32b  = adv.mmap_create("%s/tmp32b.raw" % odir, np.dtype("float32"), shape)
-labels  = adv.mmap_create("%s/labels.raw" % odir, np.dtype(np.int64), shape)
-work    = adv.mmap_create("%s/work.raw" % odir, np.dtype(np.int64), shape)
-denoised= adv.mmap_create("%s/denoised.raw" % odir, np.dtype("float32"), shape)
+keep    = img3.mmap_create("%s/mask.raw" % odir, np.dtype("uint8"), shape)
+keepE   = img3.mmap_create("%s/mask_erosion.raw" % odir, np.dtype("uint8"), shape)
+tmp8    = img3.mmap_create("%s/tmp8.raw" % odir, np.dtype("uint8"), shape)
+segmented = img3.mmap_create("%s/segmented.raw" % odir, np.dtype("uint8"), shape)
+tmp32a  = img3.mmap_create("%s/tmp32a.raw" % odir, np.dtype("float32"), shape)
+tmp32b  = img3.mmap_create("%s/tmp32b.raw" % odir, np.dtype("float32"), shape)
+labels  = img3.mmap_create("%s/labels.raw" % odir, np.dtype(np.int64), shape)
+work    = img3.mmap_create("%s/work.raw" % odir, np.dtype(np.int64), shape)
+denoised= img3.mmap_create("%s/denoised.raw" % odir, np.dtype("float32"), shape)
 
-#adv.nrrd_write("%s/denoised.nrrd" % odir, "%s/denoised.raw" % odir, denoised.dtype, denoised.shape, spacings)
-adv.nrrd_write("%s/segmented.nrrd" % odir, "%s/segmented.raw" % odir, segmented.dtype, segmented.shape, spacings)
+#img3.nrrd_write("%s/denoised.nrrd" % odir, "%s/denoised.raw" % odir, denoised.dtype, denoised.shape, spacings)
+img3.nrrd_write("%s/segmented.nrrd" % odir, "%s/segmented.raw" % odir, segmented.dtype, segmented.shape, spacings)
 
 Imax = args.Imax
 Imin = args.Imin
@@ -188,28 +188,28 @@ if __name__ == "__main__":
     stamp("copy (numba)")
     copy(keep, out=tmp8)
     nstep = 10
-    stamp("erode mask (adv.erosion)")
-    adv.erosion(tmp8, nstep, keepE)
+    stamp("erode mask (img3.erosion)")
+    img3.erosion(tmp8, nstep, keepE)
 
     stamp("copy (numba)")
     copy(img_stack, out=tmp32a)
-    stamp("adv.memset(tmp32b, 0)")
-    adv.memset(tmp32b, 0)
+    stamp("img3.memset(tmp32b, 0)")
+    img3.memset(tmp32b, 0)
     stamp("clip Imax (numba)")
     clip(tmp32a, Imax, tmp32b)
 
-    stamp("background smoothing (adv.gauss)")
+    stamp("background smoothing (img3.gauss)")
     sigma = args.w
-    adv.gauss(tmp32b, keep, sigma, tmp32a)
+    img3.gauss(tmp32b, keep, sigma, tmp32a)
 
     stamp("intensity normalization (numba)")
     divide(img_stack, tmp32a, keep, out=tmp32b)
 
-    stamp("adv.memset(tmp32a, 0)")
-    adv.memset(tmp32a, 0)
-    stamp("denoise (adv.gauss)")
+    stamp("img3.memset(tmp32a, 0)")
+    img3.memset(tmp32a, 0)
+    stamp("denoise (img3.gauss)")
     sigma = 1
-    adv.gauss(tmp32b, keep, sigma, tmp32a)
+    img3.gauss(tmp32b, keep, sigma, tmp32a)
 
     stamp("mask denoised (numba)")
     mask_array(tmp32a, keep, tmp32b)
@@ -224,21 +224,21 @@ if __name__ == "__main__":
     stamp("0/1 internal")
     binary(tmp32b, tmp8)
 
-    stamp("adv.memset(labels, 0)")
-    adv.memset(labels, 0)
-    stamp("labels (adv.label)")
-    Nc = adv.labels(tmp8, labels, work)
+    stamp("img3.memset(labels, 0)")
+    img3.memset(labels, 0)
+    stamp("labels (img3.label)")
+    Nc = img3.labels(tmp8, labels, work)
     sys.stderr.write("  Nc(all): %d\n" % Nc)
 
-    stamp("adv.remove_small_objects")
-    Nc = adv.remove_small_objects(labels, args.Vmin, work)
+    stamp("img3.remove_small_objects")
+    Nc = img3.remove_small_objects(labels, args.Vmin, work)
     sys.stderr.write("  Nc(Vmin): %d\n" % Nc)
 
     stamp("0/1 segmented")
     binary(labels, segmented)
 
-    stamp("candidate cells (adv.objects)")
-    lst = adv.objects(labels, Nc)
+    stamp("candidate cells (img3.objects)")
+    lst = img3.objects(labels, Nc)
 
     stamp("save candidate list to pickle")
     with open("%s/lst.pkl" % odir,'wb') as fl:

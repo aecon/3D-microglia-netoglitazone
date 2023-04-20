@@ -3,7 +3,7 @@ import sys
 import numba
 import argparse
 import numpy as np
-import adv
+import img3
 
 # Need flipping ("right" brains):
 #   454371_17_LD_7
@@ -25,12 +25,12 @@ if 1:
     parser.add_argument('-i', type=str, required=True, help="raw data, nrrd")
     args = parser.parse_args()
     
-    raw = adv.nrrd_data(args.i)
+    raw = img3.nrrd_data(args.i)
     
     odir    = os.path.dirname(args.i)
     basename = os.path.basename(args.i)
-    flip_raw = adv.mmap_create("%s/flip_%s.raw" % (odir, basename), raw.dtype, raw.shape)
-    adv.nrrd_write("%s/flip_%s.nrrd" % (odir, basename), "%s/flip_%s.raw" % (odir, basename), flip_raw.dtype, flip_raw.shape, (1,1,1))
+    flip_raw = img3.mmap_create("%s/flip_%s.raw" % (odir, basename), raw.dtype, raw.shape)
+    img3.nrrd_write("%s/flip_%s.nrrd" % (odir, basename), "%s/flip_%s.raw" % (odir, basename), flip_raw.dtype, flip_raw.shape, (1,1,1))
     
     flipx(raw, flip_raw)
 
@@ -42,14 +42,14 @@ if 0:
     parser.add_argument('-c', type=str, required=True, help="cell data, nrrd")
     args = parser.parse_args()
     
-    raw = adv.nrrd_data(args.i)
-    cells = adv.nrrd_data(args.c)
+    raw = img3.nrrd_data(args.i)
+    cells = img3.nrrd_data(args.c)
     
     odir    = os.path.dirname(args.c)
-    flip_cells = adv.mmap_create("%s/flip_segmented.raw" % odir, cells.dtype, cells.shape)
-    flip_raw = adv.mmap_create("%s/flip_raw.raw" % odir, raw.dtype, raw.shape)
-    adv.nrrd_write("%s/flip_segmented.nrrd" % odir, "%s/flip_segmented.raw" % odir, flip_cells.dtype, flip_cells.shape, (1,1,1))
-    adv.nrrd_write("%s/flip_raw.nrrd" % odir, "%s/flip_raw.raw" % odir, flip_raw.dtype, flip_raw.shape, (1,1,1))
+    flip_cells = img3.mmap_create("%s/flip_segmented.raw" % odir, cells.dtype, cells.shape)
+    flip_raw = img3.mmap_create("%s/flip_raw.raw" % odir, raw.dtype, raw.shape)
+    img3.nrrd_write("%s/flip_segmented.nrrd" % odir, "%s/flip_segmented.raw" % odir, flip_cells.dtype, flip_cells.shape, (1,1,1))
+    img3.nrrd_write("%s/flip_raw.nrrd" % odir, "%s/flip_raw.raw" % odir, flip_raw.dtype, flip_raw.shape, (1,1,1))
     
     flipx(raw, flip_raw)
     flipx(cells, flip_cells)

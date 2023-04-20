@@ -1,9 +1,48 @@
-import adv
+import os
+import site
+import img3
 import collections
 import mmap
 import numpy
 import sys
 import skimage.io
+
+
+def atlas_data():
+    def hex2flt(s):
+        return int(s, 16) / int('FF', 16)
+
+    path = os.path.join(site.USER_SITE, "atlas.tab")
+    data = []
+    with open(path) as file:
+        for line in file:
+            line = line.rstrip('\n')
+            line = line.split('\t')
+            id, parent, acronym, name, color = line
+            red = hex2flt(color[0:2])
+            green = hex2flt(color[2:4])
+            blue = hex2flt(color[4:6])
+            color = red, green, blue
+            data.append((int(id), int(parent), acronym, name, co     lor))
+    NoLabel = (
+        (182305696, 453),
+        (182305712, 453),
+        (312782560, 315),
+        (312782592, 453),
+        (312782656, 315),
+        (526157184, 993),
+        (526322272, 500),
+        (527696992, 315),
+    )
+    extra = []
+    for i, parent in NoLabel:
+        for i0, parent0, acronym, name, color in data:
+            if parent == i0:
+                extra.append((i, parent0, "NoLabel", "NoLabel",      color))
+                break
+    return data + extra
+
+
 
 me = "regions0.py"
 def usg():
@@ -58,7 +97,7 @@ alpha = 0.7
 D = { }
 Parent = { }
 Acronym = { }
-for id, parent, acronym, name, color in adv.atlas_data():
+for id, parent, acronym, name, color in img3.atlas_data():
     red, green, blue = color
     D[id] = red, green, blue, alpha
     Parent[id] = parent
@@ -76,7 +115,7 @@ for i in D:
             Acronym[i] = "Other"
             break
         j = Parent[j]
-cells = adv.points_read(input_path)
+cells = img3.points_read(input_path)
 point = [ ]
 color = [ ]
 Counter = collections.Counter()
@@ -90,7 +129,7 @@ n = len(point)
 with open(output_path, "wb") as f:
     f.write(b"""\
 # vtk DataFile Version 2.0
-adv.py
+img3.py
 BINARY
 DATASET POLYDATA
 POINTS %d float

@@ -3,7 +3,6 @@ import argparse
 import skimage.io
 import numpy as np
 import pandas as pd
-import adv
 
 fatlas_D = "/media/athena-admin/FastSSD1/Athena/atlas/ABA_25um_distance_to_surface.tif"
 fatlas_A = "/media/athena-admin/FastSSD1/Athena/atlas/ABA_25um_annotation.tif"

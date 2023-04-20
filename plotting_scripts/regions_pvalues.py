@@ -3,7 +3,6 @@ import argparse
 import skimage.io
 import numpy as np
 import pandas as pd
-import adv
 from scipy.stats import ttest_ind_from_stats
 
 regions_info="regions_info.dat"

@@ -1,6 +1,6 @@
 import os
 import sys
-import adv
+import img3
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
@@ -62,10 +62,10 @@ if args.id == "840298_52_P_20":
 
 
 
-raw = adv.nrrd_data(args.r)[:,:,zslice]
+raw = img3.nrrd_data(args.r)[:,:,zslice]
 raw_maksed = masked_array(raw,raw<100)
 
-seg = adv.nrrd_data(args.s)[:,:,zslice]
+seg = img3.nrrd_data(args.s)[:,:,zslice]
 seg_masked = masked_array(seg,seg==0)
 seg_adj = seg_masked * raw
 

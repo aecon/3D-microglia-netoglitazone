@@ -1,6 +1,6 @@
 import os
 import sys
-import adv
+import img3
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
@@ -98,16 +98,16 @@ cells_masked = masked_array(average,average==0)
 # write means
 name_raw = "%s/avg_cells_group%d.raw"%(args.o, group)
 name_nrrd = "%s/avg_cells_group%d.nrrd"%(args.o, group)
-o = adv.mmap_create(name_raw, np.dtype("float"), atlasshape)
-adv.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
+o = img3.mmap_create(name_raw, np.dtype("float"), atlasshape)
+img3.nrrd_write(name_nrrd, name_raw, o.dtype, o.shape, (1,1,1))
 o[:,:,:] = average[:,:,:]
 
 
 # write stds
 name_raw = "%s/std_cells_group%d.raw"%(args.o, group)
 name_nrrd = "%s/std_cells_group%d.nrrd"%(args.o, group)
-o2 = adv.mmap_create(name_raw, np.dtype("float"), atlasshape)
-adv.nrrd_write(name_nrrd, name_raw, o2.dtype, o2.shape, (1,1,1))
+o2 = img3.mmap_create(name_raw, np.dtype("float"), atlasshape)
+img3.nrrd_write(name_nrrd, name_raw, o2.dtype, o2.shape, (1,1,1))
 o2[:,:,:] = staddev[:,:,:]
 
 
