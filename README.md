@@ -39,7 +39,7 @@ cd pre-processing
 ./run_crop.sh
 ```
 
-* **Data Flipping**: used to flip samples such that cerebellum is always on the Left.
+* **Data Flipping**: used to flip samples such that cerebellum is always on the LEFT.
 ```
 cd pre-processing
 python3 flip.py -i <path to nrrd file>
@@ -48,8 +48,11 @@ python3 flip.py -i <path to nrrd file>
 
 ### main pipeline
 
-* [ `run_cell_detection_WREN.sh`: Check intensity threshold for Back.Eq. and Cell detection ]  
-* If needed: `flip.py` (see arguments) to make all brains LEFT. Replace cropped brains with flipped ones.!! 
+* **Cell segmentation**: Edit parameters inside `./run_cell_detection_WREN.sh`. The run as follows: 
+```
+./run_cell_detection_WREN.sh
+```
+
 * `run_align.sh`  
 * `run_erode.sh`: To remove surface artifacts + Voxelize  
 * `run_voxelize.sh`: Gaussian smoothing, with (plaque) Diameter = 15 pixels  

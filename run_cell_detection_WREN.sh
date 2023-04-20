@@ -1,22 +1,42 @@
 #!/bin/bash
 set -eu
 
-# ~~~~~~~~~~~ DATA ~~~~~~~~~~~ #
-di=/media/athena-admin/FastSSD1/Athena/francesca_202203/data/cropped
-#samples=("340258_2LD_5" "454371_17_LD_7" "840298_52_P_20" "340299_35_22_HD" "840258_3_LD_6" "840298_16_P_17" "840298_50_P_19" "840295_42_HD")  # Imin=150
-samples=("840295_40_HD_27")  # Imin=130
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# DATA PATHS
+# - DATA: Folder containing input data
+# - OUTDIR: Folder to store output
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#DATA="FastSSD1/Athena/francesca_202203/data"
+#OUTDIR="FastSSD1/Athena/francesca_202204/out_filter647_01"
+#
+#d=${DATA}/cropped_520
+d=${DATA}/cropped_647
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# SAMPLES AND CORRESPONDING INTENSITIES
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# For the following samples, use Imin=150
+#samples=("340258_2LD_5" "454371_17_LD_7" "840298_52_P_20" "340299_35_22_HD" "840258_3_LD_6" "840298_16_P_17" "840298_50_P_19" "840295_42_HD")
+#Imin=150
+#
+# For the following samples, use Imin=130
+samples=("840295_40_HD_27")
+Imin=130
 
 
 for sample in ${samples[@]}; do
 
-    input=`find ${di} -name "cropped_raw_${sample}*.nrrd"`
+    input=`find ${d} -name "cropped_raw_${sample}*.nrrd"`
     ls $input
 
-    outdir="/media/athena-admin/FastSSD1/Athena/francesca_202204/out_filter647_01/${sample}"
+    outdir="${OUTDIR}/${sample}"
     mkdir -p "${outdir}"
 
-    Imin=130 #150
     Imax=2000
     echo $sample $Imin $Imax
 
