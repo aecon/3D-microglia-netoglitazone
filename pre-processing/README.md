@@ -6,6 +6,11 @@ Used to crop out large empty regions.
 ```
 ./run_crop.sh
 ```
+The upper left and bottom right corners for each sample are stored inside the file
+```
+corners.dat
+```
+
 
 ### Data Flipping
 
