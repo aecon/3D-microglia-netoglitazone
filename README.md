@@ -53,13 +53,16 @@ python3 flip.py -i <path to nrrd file>
 ./run_cell_detection_WREN.sh
 ```
 
-* **Alignment to Allen Brain Atlas**: 
+* **Alignment to Allen Brain Atlas**: Uses parameter files from `align/`
 ```
 ./run_align.sh
 ```
 
+* **Removal of surface artefacts**: To remove surface artifacts and perform voxelization of aligned cells:
+```
+./run_erode.sh
+```
 
-* `run_erode.sh`: To remove surface artifacts + Voxelize  
 * `run_voxelize.sh`: Gaussian smoothing, with (plaque) Diameter = 15 pixels  
 * `cd plotting_scripts; ./plot_all_figures.sh`
 
