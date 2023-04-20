@@ -4,10 +4,17 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 
 ## Requirements
-* gcc
-* OpenMP
-* Python (packages: numpy pandas scipy numba scikit-image matplotlib)
+
+* C compiler
+* numpy
 * [img3D package](https://github.com/aecon/img3D)
+
+### Optional requirements
+
+* C compiler with OpenMP support
+* ImageJ
+* Python packages: tifffile, numba, scipy, scikit-image, pandas, matplotlib
+
 
 
 ## Data
