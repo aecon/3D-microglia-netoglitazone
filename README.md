@@ -63,8 +63,17 @@ python3 flip.py -i <path to nrrd file>
 ./run_erode.sh
 ```
 
-* `run_voxelize.sh`: Gaussian smoothing, with (plaque) Diameter = 15 pixels  
-* `cd plotting_scripts; ./plot_all_figures.sh`
+* **Voxelization**: Gaussian smoothing, with diameter 15 pixels
+```
+run_voxelize.sh
+```
+
+### post-processing
+Plotting and data analysis scripts are located inside folder `post-processing`. To generate all figures:
+```
+cd post-processing
+./plot_all_figures.sh
+```
 
 
 ## Authors
