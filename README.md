@@ -21,13 +21,19 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 3D image files obtained from Light-sheet microscopy.
 
+### Location
+
+The location of the data is assumed to be stored in the environment variable `${DATA}`.
+
+Here `DATA=FastSSD1/Athena/francesca_202203/data`
+
 
 
 ## Image Processing
 
 ### pre-processing
 
-* Cropping of data to exclude large empty regions.
+* **Data Cropping**: used to crop out large empty regions.
 ```
 cd pre-processing
 ./run_crop.sh

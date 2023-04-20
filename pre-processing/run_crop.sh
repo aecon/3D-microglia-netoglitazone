@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-d="${FastSSD}/Athena/francesca_202203/data"
+d=${DATA}
 
 while read l; do
     
