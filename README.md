@@ -23,9 +23,7 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 ### Location
 
-The location of the data is assumed to be stored in the environment variable `${DATA}`.
-
-Here `DATA=FastSSD1/Athena/francesca_202203/data`
+The location of the data should be stored in the environment variable `${DATA}`.
 
 
 
@@ -73,21 +71,6 @@ Plotting and data analysis scripts are located inside folder `post-processing`. 
 ```
 cd post-processing
 ./plot_all_figures.sh
-```
-
-
-## Data status
-```
-CopyTif Tif2Raw DelTif  CropRaw DelRaw  data set  
-ok      ok      ok      ok      ok      340258#2LD#5  
-ok      ok      ok      ok      ok      454371_17_LD_#7  
-ok      ok      ok      ok      ok      840295_40_HD_#27  
-ok      ok      ok      ok      ok      840298_16_P_#17  
-ok      ok      ok      ok      ok      840298_52_P_20  
-ok      ok      ok      ok      ok      340299_35_22_HD  
-ok      ok      ok      ok      ok      840258_3_LD_#6  
-ok      ok      ok      ok      ok      840295_42_HD  
-ok      ok      ok      ok      ok      840298_50_P_#19  
 ```
 
 
