@@ -1,6 +1,3 @@
-# original script:
-# https://github.com/aecon/img3D/blob/main/examples/01_Covert/tif_to_raw.py
-
 import os
 import sys
 import img3
