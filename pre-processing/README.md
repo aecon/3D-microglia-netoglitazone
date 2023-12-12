@@ -32,7 +32,7 @@ where "PATH/TO/NRRD/FILE" is the full path to the `.nrrd` file, and `X0, Y0, X1,
 **To automate the cropping process for many brains use the script `run_crop.sh`. Requirements**:
 * `DATA`: Set the variable `DATA` in line 20 of `run_crop.sh` to the directory containing the data.
 * Input data:
-  * Must be in raw/nrrd format. To create raw/nrrd files from the tif files, see the section above.
+  * Must be in raw/nrrd format. To create raw/nrrd files from the tif files, see the section [Convert tif to raw/nrrd file format](https://github.com/aecon/3D-microglia-netoglitazone/tree/main/pre-processing#convert-tif-to-rawnrrd-file-format).
   * Filenames must be in the format `raw_SAMPLE.tif.nrrd`, where SAMPLE is the sample ID (i.e. first column in file corners.dat)
 
 Usage:
