@@ -46,3 +46,18 @@ Usage:
 python registration.py -o "PATH/TO/OUTPUT/DIRECTORY" -a "PATH/TO/AUTOFLUORESCENCE/NRRD" -s "PATH/TO/SEGMENTED/CELLS/NRRD"
 ```
 
+
+## 4. voxelization
+
+Apply a Gaussian blur on the transformed segmented cells to allow for visual inspection of detected cell density on low resolution figures.
+
+Usage:
+```
+python voxelization.py -i "PATH/TO/TRANSFORMED/CELLS/NRRD"
+```
+
+To automate the voxelization over all samples, adapt the paths to the transformed segmented cells, inside `run_voxelize.sh`, and run as:
+```
+./run_voxelize.sh
+```
+
