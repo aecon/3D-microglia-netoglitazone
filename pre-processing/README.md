@@ -3,7 +3,7 @@
 
 ## Convert tif to raw/nrrd file format
 
-* Use to convert tif files to raw/nrrd format (required for further steps of the analysis).
+* Use to convert tif files to raw/nrrd format (**required for further steps of the analysis**).
 * After running `tif_to_raw.py` two new files will apprear inside the same folder as the original data: A `.raw` file containing the cropped data, and a corresponding `.nrrd` file containing the image metadata.
 
 Usage:
@@ -25,8 +25,8 @@ Usage:
 python crop.py -i "PATH/TO/NRRD/FILE" -x0 X0 -y0 Y0 -x1 X1 -y1 Y1
 ```
 where "PATH/TO/NRRD/FILE" is the full path to the `.nrrd` file, and `X0, Y0, X1, Y1` are the crop coordinates:
-* X0, Y0: upper left x,y pixel coordinates
-* X1, Y1: lower right x,y pixel coordinates
+* `X0`, `Y0`: upper left x,y pixel coordinates
+* `X1`, `Y1`: lower right x,y pixel coordinates
 
 
 **To automate the cropping process for many brains use the script `run_crop.sh`. Requirements**:
