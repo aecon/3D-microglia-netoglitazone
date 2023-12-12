@@ -10,14 +10,38 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 * [img3D package](https://github.com/aecon/img3D)
 * [elastix](https://elastix.lumc.nl)
-* [https://fiji.sc](Fiji/ImageJ)
-* Python packages: tifffile, numba, scipy, scikit-image, pandas, matplotlib
+* [Fiji](https://fiji.sc)
+* [AllenSDK](https://allensdk.readthedocs.io/en/latest)
+* Python packages (see below)
+
+
+### Python package installation
+
+Create a new conda environment.
+```
+conda create -n "netoglitazone3D" python=3.9
+```
+
+Activate the environment.
+```
+conda activate netoglitazone3D
+```
+
+Install python packages.
+```
+pip install -r requirements.txt
+```
+
+<!---
+I installed like this:
+    conda install TODO:XXXX
+-->
 
 
 
 ## Data
 
-3D image files (tif image stacks) obtained by light-sheet microscopy (mesoSPIM).
+Tif stacks (3D image data) of mouse brain hemispheres, obtained with light-sheet microscopy (mesoSPIM), imaged across the sagittal plane.
 
 
 
