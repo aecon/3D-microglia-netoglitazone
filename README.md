@@ -48,20 +48,17 @@ Tif stacks (3D image data) of mouse brain hemispheres, obtained with light-sheet
 ## Image Processing
 
 ### pre-processing
-* **Conversion of tif to raw/nrrd**: Required to use all other scripts.
 
-* **Data Cropping**: used to crop out large empty regions.
-```
-cd pre-processing
-./run_crop.sh
-```
-* **Data Flipping**: used to flip samples such that cerebellum is always on the LEFT.
-```
-cd pre-processing
-python3 flip.py -i <path to nrrd file>
-```
+Tools for stack pre-processing:
+* Conversion of image stacks from tif to raw/nrrd file formats
+* Cropping of image stacks to exclude large empty regions
+* Flipping of stacks (horizontal and/or stack flip) to match the Allen Brain Atlas orientation.
 
-### main pipeline
+
+### processing
+
+Main image processing steps.
+
 * **Cell segmentation**: Edit parameters inside `./run_cell_detection_WREN.sh`. Then run as follows: 
 ```
 ./run_cell_detection_WREN.sh
