@@ -8,7 +8,7 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 ## Requirements
 
-* [img3D package](https://github.com/aecon/img3D)
+* [img3D](https://github.com/aecon/img3D)
 * [elastix](https://elastix.lumc.nl)
 * [Fiji](https://fiji.sc)
 * [AllenSDK](https://allensdk.readthedocs.io/en/latest)
