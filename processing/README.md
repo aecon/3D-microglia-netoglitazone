@@ -1,9 +1,9 @@
 # processing
 
-Tools to perform microglia cell detection from 3D mouse hemispheres.
+Tools to perform microglia cell detection from 3D mouse hemispheres, and registration to the [Allen Mouse Brain Reference Atlas](http://atlas.brain-map.org).
 
 
-## segmentation
+## 1. segmentation
 
 ```
 python segmentation.py -i "PATH/TO/SIGNAL/DATA/NRRD" -o "PATH/TO/OUTPUT/DIRECTORY" -Imin IMIN -Imax IMAX -v -p
@@ -17,11 +17,22 @@ To automate the segmentation over all samples, adapt the paths and the intensity
 ```
 
 
-## classification
+## 2. artifact exclustion
+
+Exclusion of antibody accumulation artifacts from sample surface and ventricles.
+
+Usage:
+```
+python artifact_exclusion.py -i "PATH/TO/SEGMENTED/CELLS/NRRD"
+```
+
+To automate the artifact exclusion over all samples, adapt the paths to the transformed segmented cells, inside `run_artifact_exclusion.sh`, and run as:
+```
+./run_artifact_exclusion.sh
+```
 
 
-
-## registration
+## 3. registration
 
 Local transformation of samples for spatial registration on the [Allen Mouse Brain Reference Atlas](http://atlas.brain-map.org) data. Registration is performed by the script `registration.py`, using [elastix](https://elastix.lumc.nl).  
 
