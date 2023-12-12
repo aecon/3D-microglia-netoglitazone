@@ -1,8 +1,29 @@
 #!/bin/bash
 set -eu
 
-#DATA="FastSSD1/Athena/francesca_202203/data"
-d=${DATA}
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# User settings
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# * DATA: Path to the directory containing
+#   the data (see variable DATA below).
+#
+# * Input data:
+#   - Must be in raw/nrrd format. To create 
+#     raw/nrrd files from the tif files, see
+#     the script: pre-processing/tif_to_raw.py
+#   - Filenames: raw_SAMPLE.tif.nrrd, where SAMPLE
+#     is the sample ID (e.g. first column in file 
+#     corners.dat
+
+DATA="3D-microglia-netoglitazone/data"
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Processing
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 while read l; do
     
@@ -15,10 +36,10 @@ while read l; do
     
         echo "$l"
 
-        input="${d}/raw_${sample}.tif.nrrd"
+        input="${DATA}/raw_${sample}.tif.nrrd"
 
         if [ -f "${input}" ]; then
-            ls $input
+            ls "Cropping:" $input
             python3.8 crop.py -i "${input}" -x0 $x0 -y0 $y0 -x1 $x1 -y1 $y1
         else
             echo "NOT FOUND: ${input}"

@@ -19,7 +19,7 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 
 Create a new conda environment.
 ```
-conda create -n "netoglitazone3D" python=3.9
+conda create -n "netoglitazone3D" python=3.7
 ```
 
 Activate the environment.
@@ -48,6 +48,8 @@ Tif stacks (3D image data) of mouse brain hemispheres, obtained with light-sheet
 ## Image Processing
 
 ### pre-processing
+* **Conversion of tif to raw/nrrd**: Required to use all other scripts.
+
 * **Data Cropping**: used to crop out large empty regions.
 ```
 cd pre-processing
