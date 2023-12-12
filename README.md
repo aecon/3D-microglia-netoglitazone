@@ -2,7 +2,7 @@
 
 **Under Development. The corresponding publication will be available soon.**
 
-Image processing pipeline for the segmentation of microglia cells in 3D mouse brain data.
+Image processing tools for the segmentation of microglia cells in 3D mouse brain data.
 
 
 ## Requirements
@@ -36,12 +36,13 @@ I installed like this:
 -->
 
 
-## Data
+## Input Data
 
 Tif stacks (3D image data) of mouse brain hemispheres, obtained with light-sheet microscopy (mesoSPIM), imaged across the sagittal plane.
 
 
-## Image Processing
+## Contents
+The directories `pre-processing`, `processing` and `plotting` contain tools to detect microglia cells from 3D mouse hemispheres, perform statistical analysis and generate figures for the corresponding publication.
 
 ### pre-processing:
 Tools for stack pre-processing:
