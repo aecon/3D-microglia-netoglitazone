@@ -1,5 +1,7 @@
 # 3D-microglia-netoglitazone
 
+**Under Development. The corresponding publication will be available soon.**
+
 Image processing pipeline for the segmentation of microglia cells in 3D mouse brain data.
 
 
