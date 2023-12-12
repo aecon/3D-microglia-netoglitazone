@@ -69,6 +69,7 @@ The pipeline was developed in the laboratories of Prof. Petros Koumoutsakos (Har
 
 
 ## Remaining TODOs
-* Add python packages inside requirements.txt
-
+* Add python packages inside requirements.txt.
+* Clean contents of `processing`.
+* Clean contents of `plotting`.
 
