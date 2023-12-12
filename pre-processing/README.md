@@ -29,7 +29,7 @@ where "PATH/TO/NRRD/FILE" is the full path to the `.nrrd` file, and `X0, Y0, X1,
 * X1, Y1: lower right x,y pixel coordinates
 
 
-To automate the cropping process for many brains use the script `run_crop.sh`:
+To automate the cropping process for many brains use the script `run_crop.sh`:  
 **Requirements**:
 * `DATA`: Set the variable `DATA` in line 20 of `run_crop.sh` to the directory containing the data.
 * Input data:
