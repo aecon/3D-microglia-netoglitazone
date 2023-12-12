@@ -86,6 +86,13 @@ cd post-processing
 
 ## Authors
 The pipeline was developed in the laboratories of Prof. Petros Koumoutsakos (Harvard University) and Prof. Adriano Aguzzi (University of Zurich) by
-* Athena Economides
+* [Athena Economides](https://athenaeconomides.com)
 * Francesca Catto
 * Sergey Litvinov
+
+
+
+## Remaining TODOs
+* Add python packages inside requirements.txt
+
+
