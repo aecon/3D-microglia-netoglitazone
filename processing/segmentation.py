@@ -10,7 +10,7 @@ import multiprocessing
 from skimage.morphology import remove_small_objects, remove_small_holes, ball
 import img3
 
-me = "cell_detection_FC.py"
+me = "segmentation.py"
 
 
 def stamp(s):

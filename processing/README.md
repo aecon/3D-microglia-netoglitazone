@@ -5,6 +5,16 @@ Tools to perform microglia cell detection from 3D mouse hemispheres.
 
 ## segmentation
 
+```
+python segmentation.py -i "PATH/TO/SIGNAL/DATA/NRRD" -o "PATH/TO/OUTPUT/DIRECTORY" -Imin IMIN -Imax IMAX -v -p
+```
+where `IMIN` and `IMAX` are intensity thresholds for the minimum and maximum normalized microglia intensity.
+
+
+To automate the segmentation over all samples, adapt the paths inside `run_segmentation` and run as:
+```
+./run_segmentation.sh
+```
 
 
 ## classification
