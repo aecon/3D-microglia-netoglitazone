@@ -9,7 +9,8 @@ Image processing pipeline for the segmentation of microglia cells in 3D mouse br
 ## Requirements
 
 * [img3D package](https://github.com/aecon/img3D)
-* ImageJ
+* [elastix](https://elastix.lumc.nl)
+* [https://fiji.sc](Fiji/ImageJ)
 * Python packages: tifffile, numba, scipy, scikit-image, pandas, matplotlib
 
 
