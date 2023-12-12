@@ -7,8 +7,8 @@ set -eu
 # - DATA: Folder containing input data
 # - OUTDIR: Folder to store output
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-DATA="FastSSD1/Athena/francesca_202203/data"
-OUTDIR="FastSSD1/Athena/francesca_202204/out_filter647_01"
+DATA="data"
+OUTDIR="data/out_filter647_01"
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
