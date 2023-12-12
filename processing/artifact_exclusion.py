@@ -32,11 +32,11 @@ tmp[:,:,:] = atlasD[:,:,:]
 tmp[tmp>0] = 1
 img3.erosion(tmp, 2, keep)
 
-# remove stuff out of eroded atlas (perimetrically)
+# remove artifacts outside of eroded atlas (perimetrically)
 eroded[:,:,:] = cells[:,:,:]
 eroded[keep==0] = 0
 
-# make a hole in the atlas: ITEM 81
+# exclude ventricles: ITEM 81
 eroded[atlasA==81] = 0
 
 # visualization
