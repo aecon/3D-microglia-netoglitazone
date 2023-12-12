@@ -34,6 +34,7 @@ where "PATH/TO/NRRD/FILE" is the full path to the `.nrrd` file, and `X0, Y0, X1,
 * Input data:
   * Must be in raw/nrrd format. To create raw/nrrd files from the tif files, see the section [Convert tif to raw/nrrd file format](https://github.com/aecon/3D-microglia-netoglitazone/tree/main/pre-processing#convert-tif-to-rawnrrd-file-format).
   * Filenames must be in the format `raw_SAMPLE.tif.nrrd`, where SAMPLE is the sample ID (i.e. first column in file corners.dat)
+  * A file `corners.dat` containing all sample IDs and crop coordinates.
 
 Usage:
 ```
