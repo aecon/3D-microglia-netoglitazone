@@ -44,9 +44,24 @@ Usage:
 
 ## Data Flipping
 
-Use to flip samples such that cerebellum is always on the Left.
+* Use to flip samples such that cerebellum is on the Left, and sample begins with the round part of the hemisphere, across the Z-stack. This is done to match the orientation of the Allen Brain Atlas.
+* After running `flip.py` two new files (raw/nrrd) will appear inside the same folder as the original data. The filenames of the flipped raw/nrrd files will be identical to the original data, prefixed with `flip_`.
+
+To flip the image stack horizontally, use the `-flipX` argument:
 ```
-python3 flip.py -i <path to nrrd file>
+python3 flip.py -i "PATH/TO/NRRD/FILE" -flipX
 ```
+
+To flip the image stack across the Z-direction (stack depth), use the `-flipZ` argument:
+```
+python3 flip.py -i "PATH/TO/NRRD/FILE" -flipZ
+```
+
+To flip both horizontally and across the Z-stack, use both arguments:
+```
+python3 flip.py -i "PATH/TO/NRRD/FILE" -flipX -flipZ
+```
+
+
 
 
