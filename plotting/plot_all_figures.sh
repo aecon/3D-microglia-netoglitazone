@@ -2,7 +2,7 @@
 set -eu
 
 
-base0="/media/athena-admin/FastSSD1/Athena/francesca_202203/out_filter647_01"  #location: ${sample}/align"
+base0="/FastSSD1/Athena/francesca_202203/out_filter647_01"  #location: ${sample}/align"
 
 samples=("340258_2LD_5" "840298_52_P_20" "340299_35_22_HD" "840298_16_P_17" "840298_50_P_19" "840295_42_HD" "840295_40_HD_27" "840258_3_LD_6" "454371_17_LD_7")
 
