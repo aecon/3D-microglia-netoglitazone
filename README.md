@@ -1,8 +1,10 @@
 # 3D-microglia-netoglitazone
 
-**Under Development. The corresponding publication will be available soon.**
-
 Image processing tools for the segmentation of microglia cells in 3D mouse brain data.
+
+The code was developed and used for the publication:  
+**Catto, Francesca, et al., "Quantitative 3D histochemistry reveals region-specific amyloid-β reduction by the antidiabetic drug netoglitazone." PLoS One 20.5 (2025): e0309489.**  
+[Link to paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309489)
 
 
 ## Requirements
