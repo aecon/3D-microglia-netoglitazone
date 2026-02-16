@@ -1,7 +1,7 @@
 # 3D-microglia-netoglitazone
 This repository implements an end-to-end 3D light-sheet microscopy analysis pipeline for mouse brain hemispheres, including stack preprocessing, automated microglia candidate detection/segmentation, surface-artifact removal, voxelization/smoothing, and registration into Allen Brain Atlas reference space. It was used to generate the quantitative spatial maps, statistics, and paper figures supporting the study’s region-specific assessment of netoglitazone effects on microglia-related signals in an Alzheimer’s disease mouse model.
 
-Catto, Francesca, et al., "Quantitative 3D histochemistry reveals region-specific amyloid-β reduction by the antidiabetic drug netoglitazone." PLoS One 20.5 (2025): e0309489.  
+**Catto, Francesca, et al., "Quantitative 3D histochemistry reveals region-specific amyloid-β reduction by the antidiabetic drug netoglitazone." PLoS One 20.5 (2025): e0309489.**  
 [https://doi.org/10.1371/journal.pone.0309489](https://doi.org/10.1371/journal.pone.0309489)
 
 
